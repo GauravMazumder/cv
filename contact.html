@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact Details</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>
+					<h1>Contact Details</h1>
+
+					<!-- target="_blank" Opens the linked document in a new window or tab-->
+					<ul>
+						<li><strong>Email:</strong> gaurav.mazumder1997@gmail.com</li>
+						<li><strong><a href="https://www.linkedin.com/in/gaurav-m-ba77898b/" target="_blank">LinkedIn</a></strong></li>
+						<li><strong><a href="https://github.com/Gauravdada" target="_blank">GitHub</a></strong></li>
+					</ul>
+
+					<!-- history.back() method loads the previous URL (page) in the history list -->
+					<button onclick="history.back()">Go Back</button>			
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h1>Contact Form</h1>
+					<!--Mailto links are used to redirect to an email address instead of a web page URL-->
+					<!--enctype attribute specifies how the form-data should be encoded when submitting it to the server-->
+					<form action="mailto:gaurav.mazumder1997@gmail.com" method="post" enctype="text/plain">
+						<label>Your Name:</label>
+						<input type="text" name="Name">
+						<br>
+						<label>Your Messege:</label>
+						<br>
+						<textarea name="Messege" cols="30" rows="10"></textarea>
+						<br>
+						<input type="submit" value="Send Email">
+					</form>
+				</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
